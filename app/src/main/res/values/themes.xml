@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StopWatch" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/black</item>
+        <item name="android:backgroundTint">@color/black</item>
+    </style>
+
+    <style name="Theme.StopWatch" parent="Base.Theme.StopWatch" />
+    
+    <style name="resetbtn">
+        <item name="android:backgroundTint">@color/blue</item>
+        <item name="android:src">@drawable/reset2</item>
+    </style>
+
+    <style name="playbtn">
+        <item name="android:backgroundTint">@color/blue</item>
+        <item name="android:src">@drawable/play</item>
+    </style>
+
+    <style name="stopbtn">
+        <item name="android:backgroundTint">@color/blue</item>
+        <item name="android:src">@drawable/stop</item>
+    </style>
+</resources>
